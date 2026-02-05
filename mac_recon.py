@@ -22,20 +22,40 @@ class Colors:
 def print_banner():
     banner = f"""
 {Colors.BOLD}{Colors.CYAN}
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║  {Colors.GREEN}██████╗ ██╗██████╗ ███████╗████████╗███████╗██████╗ {Colors.CYAN}║
-║  {Colors.GREEN}██╔══██╗██║██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗{Colors.CYAN}║
-║  {Colors.GREEN}██████╔╝██║██████╔╝█████╗     ██║   █████╗  ██████╔╝{Colors.CYAN}║
-║  {Colors.GREEN}██╔══██╗██║██╔══██╗██╔══╝     ██║   ██╔══╝  ██╔══██╗{Colors.CYAN}║
-║  {Colors.GREEN}██║  ██║██║██████╔╝███████╗   ██║   ███████╗██║  ██║{Colors.CYAN}║
-║  {Colors.GREEN}╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝{Colors.CYAN}║
-║                                                              ║
-║  {Colors.BOLD}{Colors.WARNING}        >> Advanced MAC Address Recon Tool <<        {Colors.CYAN}║
-║                                                              ║
-║  {Colors.BOLD}Author: Azod814{Colors.ENDC}{Colors.CYAN}                                    ║
-║  {Colors.BOLD}GitHub: github.com/azod814{Colors.ENDC}{Colors.CYAN}                        ║
-╚══════════════════════════════════════════════════════════════╝
+─────────────────────────────────────────────────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────────────▄▄▄▄▄▄▄▄▄──────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────────────▌▐░▀░▀░▀▐──────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────────────▌▐░▌░░░░░▐──────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────────────▌▐░░░░░░░▐──────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────────────▄▄▄▄▄▄▄▄▄──────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}─────▄▀▀▀▀▀▌▄█▄░▄█▄▐▀▀▀▀▀▄─────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────█▒▒▒▒▒▒▐░░░░▄░░░░▌▒▒▒▒▒▒█────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▐▒▒▒▒▒▒▒▌░░░░░░░▐▒▒▒▒▒▒▒▌────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▐▒▒▒▒▒▒▒█░▀▀▀▀▀░█▒▒▒▒▒▒▒▌────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▐▒▒▒▒▒▒▒▒█▄▄▄▄▄█▒▒▒▒▒▒▒▒▌────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▐▒▒▒▒▐▒▒▒▒▒▒▒▒▒▒▒▒▐▒▒▒▒▒▌────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▐▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▌────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▐▒▒▒▒▒▐▒▒▒▒▒▒▒▒▒▒▒▌▒▒▒▒▒▌────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▐▒▒▒▒▒▒▌▒▒▒▒▒▒▒▒▒▐▒▒▒▒▒▒▌────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▐▒▒▒▒▒▒▌▄▄▄▄▄▄▄▄▄▐▒▒▒▒▒▒▌────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▐▄▄▄▄▄▄▌▌███████▌▐▄▄▄▄▄▄▌────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}─────█▀▀▀▀█─▌███▌███▌─█▀▀▀▀█─────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}─────▐░░░░▌─▌███▌███▌─▐░░░░▌─────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}──────▀▀▀▀──▌███▌███▌──▀▀▀▀──────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────────────▌███▌███▌─────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────────────▌███▌███▌─────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}───────────▐▀▀▀██▌█▀▀▀▌────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.FAIL}────▒▒▒▒▒▒▒▐▄▄▄▄▄▄▄▄▄▄▌▒▒▒▒▒▒▒────
+{Colors.ENDC}{Colors.BOLD}{Colors.CYAN}
+─────────────────────────────────────────────────────────
+{Colors.ENDC}{Colors.BOLD}{Colors.WARNING}
+                >> Advanced MAC Address Recon Tool <<
+{Colors.ENDC}{Colors.BOLD}{Colors.GREEN}
+                        Author: azod814
+{Colors.ENDC}{Colors.BOLD}{Colors.GREEN}
+                  GitHub: github.com/azod814
+{Colors.ENDC}{Colors.BOLD}{Colors.CYAN}
+─────────────────────────────────────────────────────────
 {Colors.ENDC}
 """
     print(banner)
